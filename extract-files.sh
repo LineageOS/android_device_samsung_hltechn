@@ -18,7 +18,7 @@
 
 set -e
 
-export DEVICE=hlte
+export DEVICE=hltechn
 export DEVICE_COMMON=hlte-common
 export VENDOR=samsung
 
