@@ -1,4 +1,4 @@
-# Samsung Package Version: N9005XXSGBQA4_N9005VAUGBPA1_VAU, unless pinned
+# Samsung Package Version: N9008VZMSDQD2_N9008VCHMDQD2_CHM, unless pinned
 
 # Qualcomm framework
 lib/libmdmdetect.so
