@@ -20,7 +20,7 @@ set -e
 
 export DEVICE=hltechn
 export DEVICE_COMMON=hlte-common
-export INITIAL_COPYRIGHT_YEAR=2017
+export VARIANT_COPYRIGHT_YEAR=2017
 export VENDOR=samsung
 
 ./../$DEVICE_COMMON/setup-makefiles.sh $@
