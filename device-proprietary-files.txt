@@ -1,16 +1,3 @@
-# Samsung Package Version: N9008VZMSDQD2_N9008VCHMDQD2_CHM, unless pinned
-
-# Radio
-bin/efsks
-bin/ks
-bin/qcks
-bin/qmuxd
-bin/rfs_access
-bin/rild
-bin/rmt_storage
-lib/libreference-ril.so
-lib/libril.so
-lib/libsec-ril.so
-lib/libsecnativefeature.so
-lib/libsecril-client.so
-vendor/lib/libril-qcril-hook-oem.so
+# Radio - pinned to N9008VZMSDQD2_N9008VCHMDQD2_CHM
+lib/libril.so|8fddda1643bf06d1a8f5fa48bd7103dcb93d5ba9
+lib/libsec-ril.so|f3aa0514c84addbac8d6cffc2fe6171d37578cab
