@@ -1,5 +1,5 @@
 # Copyright (C) 2014 The CyanogenMod Project
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -27,13 +27,6 @@ TARGET_KERNEL_CONFIG := lineage_hltechn_defconfig
 
 # NFC
 BOARD_NFC_HAL_SUFFIX := $(TARGET_BOARD_PLATFORM)
-
-# Partitions
-BOARD_BOOTIMAGE_PARTITION_SIZE := 11534336
-BOARD_CACHEIMAGE_PARTITION_SIZE := 314572800
-BOARD_RECOVERYIMAGE_PARTITION_SIZE := 13631488
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1572864000
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 28651290624
 
 # inherit from the proprietary version
 -include vendor/samsung/hltechn/BoardConfigVendor.mk
