@@ -14,7 +14,7 @@
 # limitations under the License.
 
 # inherit from common hlte
--include device/samsung/hlte-common/BoardConfigCommon.mk
+include device/samsung/hlte-common/BoardConfigCommon.mk
 
 TARGET_OTA_ASSERT_DEVICE := hlte,hltechn
 
@@ -30,6 +30,9 @@ BOARD_NFC_HAL_SUFFIX := $(TARGET_BOARD_PLATFORM)
 
 # NFC
 include $(COMMON_PATH)/nfc/bcm2079x/board.mk
+
+# Radio/RIL
+include $(COMMON_PATH)/radio/single/board.mk
 
 # inherit from the proprietary version
 -include vendor/samsung/hltechn/BoardConfigVendor.mk
