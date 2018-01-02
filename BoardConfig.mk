@@ -28,5 +28,8 @@ TARGET_KERNEL_CONFIG := lineage_hltechn_defconfig
 # NFC
 BOARD_NFC_HAL_SUFFIX := $(TARGET_BOARD_PLATFORM)
 
+# NFC
+include $(COMMON_PATH)/nfc/bcm2079x/board.mk
+
 # inherit from the proprietary version
 -include vendor/samsung/hltechn/BoardConfigVendor.mk
