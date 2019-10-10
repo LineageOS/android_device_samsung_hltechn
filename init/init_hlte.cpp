@@ -41,10 +41,11 @@ void vendor_load_properties()
 
     if (bootloader.find("N9008V") == 0) {
         /* hltezm - China Mobile */
-        property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "samsung/hltezm/hlte:5.0/LRX21V/N9008VZMSDQD2:user/release-keys");
         property_override("ro.build.description", "hltezm-user 5.0 LRX21V N9008VZMSDQD2 release-keys");
-        property_override_dual("ro.product.model", "ro.product.vendor.model", "SM-N9008V");
-        property_override_dual("ro.product.device", "ro.product.vendor.device", "hlte");
+        set_ro_product_prop("device", "hlte");
+        set_ro_product_prop("fingerprint", "samsung/hltezm/hlte:5.0/LRX21V/N9008VZMSDQD2:user/release-keys");
+        set_ro_product_prop("model", "SM-N9008V");
+        set_ro_product_prop("name", "hlte");
     }
 
     std::string device = GetProperty("ro.product.device", "");
