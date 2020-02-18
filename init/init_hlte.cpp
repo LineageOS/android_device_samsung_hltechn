@@ -39,12 +39,6 @@
 using android::base::GetProperty;
 using android::init::property_set;
 
-void gsm_properties()
-{
-    property_set("ro.telephony.default_network", "9");
-    property_set("telephony.lteOnGsmDevice", "1");
-}
-
 #define ISMATCH(a, b) (!strncmp((a), (b), PROP_VALUE_MAX))
 
 void init_target_properties()
@@ -62,7 +56,6 @@ void init_target_properties()
         property_override_dual("ro.product.model", "ro.vendor.product.model", "SM-N9008V");
         property_override_dual("ro.product.device", "ro.vendor.product.device", "hlte");
     }
-    gsm_properties();
 
     std::string device = GetProperty("ro.product.device", "");
     LOG(ERROR) << "Found bootloader id " << bootloader <<  " setting build properties for "

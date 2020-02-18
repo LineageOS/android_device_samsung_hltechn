@@ -31,6 +31,9 @@ BOARD_NFC_HAL_SUFFIX := $(TARGET_BOARD_PLATFORM)
 # NFC
 include $(COMMON_PATH)/nfc/bcm2079x/board.mk
 
+# Properties
+TARGET_SYSTEM_PROP += device/samsung/hltechn/system.prop
+
 # Radio/RIL
 include $(COMMON_PATH)/radio/single/board.mk
 
