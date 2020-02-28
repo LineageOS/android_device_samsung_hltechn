@@ -1,6 +1,6 @@
 /*
    Copyright (c) 2013, The Linux Foundation. All rights reserved.
-   Copyright (c) 2017-2018, The LineageOS Project. All rights reserved.
+   Copyright (c) 2017-2020, The LineageOS Project. All rights reserved.
 
    Redistribution and use in source and binary forms, with or without
    modification, are permitted provided that the following conditions are
@@ -38,8 +38,6 @@
 
 using android::base::GetProperty;
 using android::init::property_set;
-
-#define ISMATCH(a, b) (!strncmp((a), (b), PROP_VALUE_MAX))
 
 void init_target_properties()
 {
