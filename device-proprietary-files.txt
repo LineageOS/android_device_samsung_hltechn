@@ -1,2 +1,2 @@
-# Radio - pinned to N9008VZMSDQD2_N9008VCHMDQD2_CHM
-lib/libsec-ril.so:vendor/lib/libsec-ril.so|f3aa0514c84addbac8d6cffc2fe6171d37578cab
+# Radio - pinned to haxxed N9008VZMSDQD2_N9008VCHMDQD2_CHM
+lib/libsec-ril.so:vendor/lib/libsec-ril.so|750561ae0acc0720148b2bf9de8b80a3f74aa698
