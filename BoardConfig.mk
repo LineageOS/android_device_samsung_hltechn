@@ -1,5 +1,5 @@
 # Copyright (C) 2014 The CyanogenMod Project
-# Copyright (C) 2017-2020 The LineageOS Project
+# Copyright (C) 2017-2021 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -37,4 +37,4 @@ TARGET_SYSTEM_PROP += device/samsung/hltechn/system.prop
 include $(COMMON_PATH)/radio/single/board.mk
 
 # inherit from the proprietary version
--include vendor/samsung/hltechn/BoardConfigVendor.mk
+include vendor/samsung/hltechn/BoardConfigVendor.mk
